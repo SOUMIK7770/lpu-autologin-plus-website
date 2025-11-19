@@ -408,7 +408,7 @@ function App() {
             <ol className="relative border-l border-white/10 pl-6 space-y-5 text-sm lg:text-base text-slate-300">
               {[
                 "Download the ZIP from GitHub or Google Drive.",
-                "Extract it to a folder on your laptop.",
+                "Extract it. Open with VS-Code to add credentials.",
                 "Open chrome://extensions in your browser.",
                 "Turn on Developer Mode in the top-right corner.",
                 "Click 'Load unpacked' and select the folder.",
@@ -644,8 +644,7 @@ function App() {
                   Submit feedback
                 </button>
                 <p className="text-[11px] text-slate-500">
-                  Later this can be wired to Firebase, Google Forms, or a small
-                  backend.
+                  Your feedback is highly appreciated.
                 </p>
               </div>
             </form>
